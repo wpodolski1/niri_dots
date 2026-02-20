@@ -50,6 +50,7 @@ nvidia-open-dkms
 openbsd-netcat
 openssh
 pavucontrol
+pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
@@ -65,6 +66,7 @@ visual-studio-code-bin
 walker-bin
 waybar
 wayland-utils
+wireplumber
 wget
 xdg-desktop-portal-gtk
 xdg-utils
