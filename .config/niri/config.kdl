@@ -279,7 +279,7 @@ spawn-at-startup "hypridle"
 spawn-at-startup "elephant"
 
 spawn-sh-at-startup "walker --gapplication-service"
-spawn-sh-at-startup "swaybg -i /home/wojt/wallpaper/wallpaper1.jpg"
+spawn-sh-at-startup "swaybg -i $HOME/wallpaper/wallpaper1.jpg"
 
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
