@@ -1,0 +1,32 @@
+@define-color window_bg_color rgba(30, 30, 46, 0.92);      /* base */
+@define-color accent_bg_color rgba(49, 50, 68, 0.8);       /* surface0 */
+@define-color theme_fg_color #cdd6f4;                       /* text */
+@define-color border_color rgba(137, 180, 250, 0.15);      /* blue tinted border */
+@define-color selected_bg rgba(137, 180, 250, 0.2);        /* blue selection */
+
+* {
+  all: unset;
+}
+
+.box-wrapper {
+  background: @window_bg_color;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid @border_color;
+}
+
+.input {
+  background: @accent_bg_color;
+  color: @theme_fg_color;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.item-box {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+child:selected .item-box {
+  background: @selected_bg;
+}
